@@ -1,0 +1,41 @@
+# Reports
+*.rpt
+
+# CPL data generated from PCB
+*.pos
+
+# KiCAD backup
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+
+# Netlists
+*.net
+
+# BOM plugin output
+*.csv.tmp
+*.csv
+# *.xml
+
+# Gerbers
+*.gbr
+
+# Drill files
+*.drl
+
+# Footprint info cache
+fp-info-cache
+
+# Autosave and backup files
+_autosave-*
+_saved_*
+*backups
+#auto_saved_files#
+
+#Local Configuration files
+*.kicad_prl
+
+#.lck files
+*.lck
+
