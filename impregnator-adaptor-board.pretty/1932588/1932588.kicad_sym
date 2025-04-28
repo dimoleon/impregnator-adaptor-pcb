@@ -1,0 +1,119 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "1932588" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "J" (id 0) (at -2.54 10.922 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "1932588" (id 1) (at -2.54 -15.24 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "1932588:PHOENIX_1932588" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "13.07.2015" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "39.2mm" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Phoenix Contact" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "1932588_0_0"
+      (polyline
+        (pts (xy -2.54 7.62) (xy -2.54 3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.54 3.81) (xy -1.905 3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.54 -2.54) (xy -2.54 -6.35)) (stroke (width 0.1524))
+      )
+      (circle (center -1.27 3.81) (radius 0.635)
+        (stroke (width 0.1524)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -2.54 -6.35) (xy -1.905 -6.35)) (stroke (width 0.1524))
+      )
+      (circle (center -1.27 -6.35) (radius 0.635)
+        (stroke (width 0.1524)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -2.54 3.81) (xy -2.54 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.54 -6.35) (xy -2.54 -10.16)) (stroke (width 0.1524))
+      )
+      (rectangle (start -3.81 -12.7) (end 5.08 10.16)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at -7.62 7.62 0) (length 5.08)
+        (name "1_1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -7.62 5.08 0) (length 5.08)
+        (name "1_2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -7.62 2.54 0) (length 5.08)
+        (name "1_3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -7.62 -2.54 0) (length 5.08)
+        (name "2_1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -7.62 -5.08 0) (length 5.08)
+        (name "2_2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -7.62 -7.62 0) (length 5.08)
+        (name "2_3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -7.62 0.0 0) (length 5.08)
+        (name "1_4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -7.62 -10.16 0) (length 5.08)
+        (name "2_4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
