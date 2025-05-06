@@ -3495,6 +3495,10 @@
 		(at 240.03 41.91)
 		(uuid "f0a79693-014e-4ada-b255-cf790b124e4f")
 	)
+	(no_connect
+		(at 240.03 78.74)
+		(uuid "f5403499-6f3f-40fb-9a35-35b5e4bea17c")
+	)
 	(wire
 		(pts
 			(xy 127 102.87) (xy 127 105.41)
@@ -9244,6 +9248,73 @@
 			(project "impregnator-adaptor-board"
 				(path "/2515d7cc-c78a-4059-b5ba-d6a4dc125d5f"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 240.03 76.2 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5299d8ff-e0f7-4c76-a69c-69b703e075dc")
+		(property "Reference" "H5"
+			(at 242.57 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 242.57 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 240.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 240.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc1f466d-664a-4aa9-9a79-efb7b5cba762")
+		)
+		(instances
+			(project "impregnator-adaptor-board"
+				(path "/2515d7cc-c78a-4059-b5ba-d6a4dc125d5f"
+					(reference "H5")
 					(unit 1)
 				)
 			)
